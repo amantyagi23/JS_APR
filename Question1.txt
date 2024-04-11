@@ -1,0 +1,8 @@
+WAP to print your name using console.log and name variable
+
+WAP to print a mesage using Console.log and a variable
+
+WAP to print Addtition of three numbers 
+a,b,c
+
+WAP to Print Dividend of a number
