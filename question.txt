@@ -1,0 +1,6 @@
+1. Wap to convert temp to celsius from fahrenheit
+77f = 'celsius
+formula =  5/9 *( temp -32);
+using function 1 parameter =  temp 
+log
+99 100 102 =  32 33 34
