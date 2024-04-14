@@ -4,3 +4,26 @@ formula =  5/9 *( temp -32);
 using function 1 parameter =  temp 
 log
 99 100 102 =  32 33 34
+
+
+reverse celsius convert fahrenheit
+
+2. Wap to check which no. is greater then among 3 number
+
+a = 
+b = 
+c = 
+
+
+3 Wap to check is age is 18 plus or not
+ var age =   
+
+4. WAP to check year is a year is greater the 2000 or not ?
+
+5. wap to check number is even or odd ? 
+
+6. Wap a fissbuss program 
+if( number is divide by 3 ) then it is a fiss
+if( number is divide by 5 ) the number is buss
+else all are fissbuss
+
