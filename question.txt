@@ -31,3 +31,20 @@ else all are fissbuss
 
 1. if( a is zero then print zero and soon)
 like if a is 3 then print three upto 0-9 and else not valid number
+
+
+8 > wap to check the week days 
+ex = 0 = sunday
+1 = monday
+2
+3
+4
+5
+6 =  sat
+
+9. wap to display greet message If time is less than 10:00 AM, 
+create a "Good morning" greeting,
+if not, 
+but time is less than 12:00PM, create a "Good day" greeting, 
+time is less than 07:00PM a "Good evening",
+time is less than 12:00AM a "Good Night",
