@@ -87,3 +87,28 @@ Print “D grade” if marks is between 50 and 60.
 Print “E grade” if marks is between 40 and 50.
 Print “Student has failed” if marks is between 0 and 40.
 Else print “Invalid marks”.
+
+
+14. WAP to create a calculator using switch case in which
+var  a = 2;
+
+if choose  is 1 then add two value operators
+if choose  is 2 then subtaction two value
+if choose  is 3 then multiply two value
+if choose  is 4 then divide two value
+if choose  is 5 then modules two value
+
+
+15 > wap to check the week days using switch case 
+ex = 0 = sunday
+1 = monday
+2
+3
+4
+5
+6 =  sat
+
+16. WAP to print 1 to 10 using for loop.
+17. Wap to print even no. upto n = 100
+18. WAP to print odd no upto n = 100
+19. WAP to print table of 5x1 = 5 using for loop 
