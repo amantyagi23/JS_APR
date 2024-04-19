@@ -109,6 +109,18 @@ ex = 0 = sunday
 6 =  sat
 
 16. WAP to print 1 to 10 using for loop.
-17. Wap to print even no. upto n = 100
+17. WAP to print multiple of 2's up to 10 times
+
+ 2
+ 4
+ 6
+ 8
+ 10
+ 12
+ 14
+ 16
+ 18
+ 20
+17. Wap to print and check whic no. even no. upto n = 100
 18. WAP to print odd no upto n = 100
 19. WAP to print table of 5x1 = 5 using for loop 
