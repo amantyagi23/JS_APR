@@ -143,8 +143,14 @@ WAP to print multiple of 2's up to 10 times
  20
 
  wap to print digit count of a given digit using while loop 
- ex-> n = 123456 
- digitcount = 6
+ ex-> n = 56781176
+ digitcount = 8
+
+var count  = 0;
+count = count + 1;   // count = 0+1; => count = 1
+
+
+
 
  Wap to print reverse of a given number 
  ex = n = 123456
@@ -162,3 +168,21 @@ for loop question
 
  n = 28 
  output = Not A Prime Number 
+
+
+ palinedrome Number
+
+ num = 123
+ rev = 321 
+
+ not a palinedrome number
+
+ num = 121
+ rev = 121
+ palinedrome number 
+
+
+WAP to check and print primenumbers between 2 to n;
+n= 100;
+n= 500;
+n= 1000;
