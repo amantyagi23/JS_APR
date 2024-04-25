@@ -181,8 +181,35 @@ for loop question
  rev = 121
  palinedrome number 
 
+ armstrong number
+
+ input 153 = num  = 1^3 + 5^3 + 3^3 = 1*1*1 + 5*5*5 + 3*3*3
+                                      1 + 125 + 27
+                                      126 + 27
+                                      153  
+
+input 370 = num = 3^3 + 7^3 + 0^3 = 3*3*3 + 7*7*7 + 0*0*0
+                                    27 + 343 + 0
+                                    370
 
 WAP to check and print primenumbers between 2 to n;
+n= 100;
+n= 500;
+n= 1000;
+
+
+WAP to check and print reverse number between 10 to n;
+n= 100;
+n= 500;
+n= 1000;
+
+
+WAP to check and print palinedrome number between 10 to n;
+n= 100;
+n= 500;
+n= 1000;
+
+WAP to check and print armstrong number between 10 to n;
 n= 100;
 n= 500;
 n= 1000;
