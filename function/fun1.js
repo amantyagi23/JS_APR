@@ -41,3 +41,16 @@ evenOdd(1)
 evenOdd(6)
 evenOdd(7)
 evenOdd(18)
+
+
+// return type 
+
+// data type depend 
+
+// number data type 
+// string
+
+// prime Number
+
+// call -> function run
+// result <- return (data type)
