@@ -22,15 +22,21 @@ function showArr(){
         
     // }
 
-    arr.forEach((value,index,a)=>{console.log(value,index,a);})
+    arr.forEach((value)=>{console.log(value);})
 }
 
-function updateElement(){
-
+function search(value){
+   let result =  arr.findIndex((element)=>element==value);
+   console.log("result",result);
 }
 
-function deleteElement(){
+function updateElement(index,value){
+    arr[index] = value;
+}
 
+function deleteElement(value){
+
+   arr =  arr.filter((ele)=>ele!=value);
 }
 
 addElement(1);
@@ -41,3 +47,10 @@ addElement(1);
 addElement(10);
 showArr()
 // console.log(arr);
+updateElement(3,18);
+// search(7)
+console.log("Update array");
+showArr()
+deleteElement(18);
+console.log("after delete ");
+showArr();
