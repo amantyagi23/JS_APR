@@ -15,7 +15,13 @@ var object = {
     add:function(a,b){ return a+b}
 }
 
+for (const key in object) {
+   console.log(key,object[key]);
+}
+
 
 var arr = [object,object]
 
-console.log(arr);
+for (const iterator of arr) {
+    console.log(iterator);
+}
