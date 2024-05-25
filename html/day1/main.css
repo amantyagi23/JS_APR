@@ -1,0 +1,35 @@
+/* 
+
+Types of css
+1. Inline css
+2. internal css
+3. External css - current file
+
+
+types of selector 
+
+ element selector : Which can select all element in html file
+
+ class selector : class property
+ to access a class selector  we have use .thenclass name 
+ */
+
+/* 
+
+ Properties
+
+ unit - %:to give width to element
+        vh: to give height
+        px: to calculate screen unit
+ Element :- height & width
+ height : for y direction and given 'vh' unit
+ width : for x direction and given in '%' unit
+
+ color: to color text 
+ background-color: to color background
+
+ border:provide border to element
+ border have 3 arguments :
+ border:boderRange type color
+ 
+  */
