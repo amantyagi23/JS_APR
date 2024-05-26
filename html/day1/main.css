@@ -12,6 +12,9 @@ types of selector
 
  class selector : class property
  to access a class selector  we have use .thenclass name 
+
+ * :- universal selector 
+ to select all things together
  */
 
 /* 
@@ -31,5 +34,10 @@ types of selector
  border:provide border to element
  border have 3 arguments :
  border:boderRange type color
+
+ margin : use for outer-space
+ padding : use for inner-space
+
+ float:to float items on screen
  
   */
