@@ -34,6 +34,9 @@ a {
   width: 40%;
   margin: 15px;
   height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .searchBox input {
@@ -45,4 +48,19 @@ button {
   padding: 10px;
   border: 0;
   font-size: larger;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropdown-body {
+  display: block;
+}
+
+.dropdown-body {
+  display: none;
+  position: absolute;
+  width: 200px;
+  background-color: rgb(194, 227, 255);
 }
