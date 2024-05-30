@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+img {
+  width: 100%;
+}
+
+.box {
+  animation: bike;
+}
+
+@keyframes bike {
+  0% {
+    transform: translate();
+  }
+  25% {
+  }
+  50% {
+  }
+  75% {
+  }
+  100% {
+  }
+}
