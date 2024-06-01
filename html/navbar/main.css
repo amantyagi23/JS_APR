@@ -98,9 +98,55 @@ button {
   font-size: larger;
 }
 
-.col {
-}
-
 main {
   padding: 12px;
+}
+
+.carosal {
+  overflow: hidden;
+}
+.carosal-inner {
+  width: 400%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carosal-inner .col {
+  width: 100%;
+  animation: slide 30s linear infinite 5s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  20% {
+    transform: translateX(-100%);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  45% {
+    transform: translateX(-200%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  70% {
+    transform: translateX(-300%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  95% {
+    transform: translateX(-400%);
+  }
+  100% {
+    transform: translateX(-400px);
+  }
+}
+
+img {
+  width: 100%;
 }
