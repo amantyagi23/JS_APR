@@ -150,3 +150,11 @@ main {
 img {
   width: 100%;
 }
+
+.rbox {
+  height: 40vh;
+  width: 50%;
+  margin: 0 auto;
+  background-color: aqua;
+  border-radius: 10px;
+}
