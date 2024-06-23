@@ -17,24 +17,80 @@
     <div class="container">
       <div class="grid">
         <div class="searchBox">
-          <input type="text" />
-          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          <input type="text" id="searchInput" />
+          <button id="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
         </div>
         <div class="info">
-          <h3>New Delhi</h3>
-          <h4>India</h4>
+          <h3 id="cityName"></h3>
+          <h4 id="countryId">India</h4>
         </div>
-        <div class="temp">
-          <h1>43&deg;</h1>
+        <div class="temp flex">
+          <img
+            id="tempImg"
+            src="https://openweathermap.org/img/wn/10d@2x.png"
+            alt=""
+          />
+          <h1 id="temp"></h1>
         </div>
         <div class="tempInfo">
-          <!-- <ul>
-            <li>Wind :</li>
-            <li>Wind :</li>
-            <li>Wind :</li>
-          </ul> -->
+          <ul>
+            <li>Wind : <span id="wind"></span></li>
+            <li>Cloud : <span id="cloud"></span></li>
+            <li>Humidity : <span id="humidity"></span></li>
+          </ul>
+        </div>
+        <div class="timeDetails">
+          <h2 id="time"></h2>
         </div>
       </div>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", bindEvents);
+
+      function bindEvents() {
+        getWeather("New Delhi");
+        showTime();
+        document.getElementById("submit").addEventListener("click", getInput);
+      }
+
+      function getInput() {
+        const input = document.getElementById("searchInput").value;
+        getWeather(input);
+      }
+
+      async function getWeather(cityName) {
+        const response = await fetch(
+          `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=8ff3b783b61261fc8bade7e97d3205fe`
+        );
+
+        const data = await response.json();
+        printData(data);
+      }
+      function printData(data) {
+        console.log(data);
+        document.getElementById("cityName").innerText = data.name;
+        document.getElementById("temp").innerHTML = `${parseInt(
+          data.main.temp - 273.15
+        )}&deg;`;
+
+        document.getElementById("countryId").innerText = data.sys.country;
+        document.getElementById(
+          "tempImg"
+        ).src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+        document.getElementById("wind").innerText = `${data.wind.speed} km/h`;
+        document.getElementById("cloud").innerText = data.weather[0].main;
+        document.getElementById(
+          "humidity"
+        ).innerText = `${data.main.humidity}%`;
+      }
+
+      function showTime() {
+        const date = new Date();
+        document.getElementById("time").innerText = date.toLocaleString();
+      }
+      setInterval(showTime, 1000);
+    </script>
   </body>
 </html>

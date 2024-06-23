@@ -71,3 +71,20 @@ h1 {
   cursor: pointer;
   background-color: rgb(57, 57, 57);
 }
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ul li {
+  font-size: larger;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
