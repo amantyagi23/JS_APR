@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "aside main main"
+    "aside footer footer";
+}
+
+header {
+  background-color: brown;
+  padding: 20px;
+  grid-area: header;
+}
+
+aside {
+  background-color: aquamarine;
+  padding: 20px;
+  grid-column: span 1;
+  grid-area: aside;
+}
+
+main {
+  background-color: yellow;
+  padding: 20px;
+  grid-row: span 3;
+  grid-area: main;
+}
+
+footer {
+  background-color: blueviolet;
+  padding: 20px;
+  grid-area: footer;
+}
