@@ -1,0 +1,19 @@
+step 1. go to github.com and sign up then login
+
+step 2. create a new repo  asign project name
+
+make sure repo is public
+
+step 3. upload code after upload commit change
+
+step 4. goto repo settings , in settings go to pages
+
+
+in none section click it and choose main and save it
+
+wait
+
+link -> open
+
+free 3 month validity 
+after reneue

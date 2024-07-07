@@ -1,0 +1,13 @@
+website responsive 
+
+use media query
+
+css overwrite - > .hero -> laptop mobile - > diffierent
+
+@media (query){
+
+}
+
+query -> max-width:576px
+
+-> min-width
